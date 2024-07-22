@@ -1,0 +1,30 @@
+x="my, name, is, hana"
+print(x)
+print(type(x))
+print(len(x))
+print("is" in x)
+print("xyz" in x)
+print("is" not in x)
+print("xyz" not in x)
+for i in x:
+    print(i)
+print(x[5])
+print(x[1:5])
+print(x[5:])
+print(x[:5])
+print(x[-3])
+print(x[-10:-3])
+print(x[-3:])
+print(x[:-3])
+print(x.upper())
+print(x.lower())
+print(x.replace("hana","hana.p.s"))
+print(x.split(","))
+y="and iam from edappal"
+print(x+y)
+print(x+" "+y)
+num=9633712591
+p=f"my phn no is {num}"
+print(p)
+print(x.count("a"))
+print(p.count("a"))
