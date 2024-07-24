@@ -36,3 +36,6 @@ f=("apple","pineappple","cherry")
 print(red)
 print(yellow)
 print(cherryred)
+for i in f:
+    print(i)
+    
