@@ -1,0 +1,33 @@
+s={"abc",1,"def",2,3,4,5,6,7,9,"ghi"}
+print(s)
+print(type(s))
+print(len(s))
+print("abc" in s)
+print("cc" not in s)
+for i in s:
+    print(i)
+s.add("hana")
+print(s)
+x={22,2,1,55,66,77,99}
+s.update(x)
+print(s)
+l=[1,2,6,000,111,222,333]
+s.update(l)
+print(s)     
+s.remove(0)
+print(s)
+s.discard(10)
+print(s)
+p=s.pop()
+print(s)
+print(p)
+# s.clear()
+# print(s)
+# del s
+# print(s)
+u=s.union(x)
+print(u)
+i=s.intersection(x)
+print(i)
+d=s.difference(x)
+print(d)
