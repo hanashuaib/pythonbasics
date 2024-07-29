@@ -4,7 +4,7 @@ while i<=10:
     i+=1
 #increment by 2    
 i=1
-while i<=20:
+while i<=10:
     print(i)
     i+=2    
 #break
@@ -25,21 +25,21 @@ while i<=10:
 #for
 s=(1,2,"aa","bb")
 for i in s:
-    print(s)
+    print(i)
 l=[11,22,33,"ccc"]   
 for i in l:
     if i==33:
         break
-    print(l)
+    print(i)
 t=("hh","pp",20,21,23,55)
 for i in t:
-    print(t)
+    print(i)
 s={10,11,12,13}
 for i in s:
-    print(s)
+    print(i)
 d={"hp":1,"pp":28,"ui":50,222:9} 
 for i in d:
-    print(d)
+    print(i)
 #for  range
 for i in range(11):
     print(i)
@@ -63,8 +63,8 @@ for i in l:
 for i in range(2):
     pass        
 #nested for loop
-list=["ss","dd","ddd8","www","rrr"]
-tuple=(1,2,3,4,5,6,7,8)
+list=["ss","dd","rrr"]
+tuple=(1,2,)
 for i in list:
     for j in tuple:
         print(i,j)
