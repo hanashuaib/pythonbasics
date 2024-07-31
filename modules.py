@@ -36,4 +36,7 @@ print(d.strftime("%B"))
 print(d.strftime("%b"))
 print(d.strftime("%Y"))
 print(d.strftime("%y"))
-
+#surface area of cone
+r=int(input("enter radius "))
+l=int(input("enter height "))
+print(math.pi*r*l)
