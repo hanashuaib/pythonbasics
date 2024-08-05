@@ -60,7 +60,7 @@ import os
 # for i in x:
 #     z.write(i)
 #     for j in y:
-#         z.write(i)
+#         z.write(j)
 #         print(i,j)
 # x.close()
 # y.close()
